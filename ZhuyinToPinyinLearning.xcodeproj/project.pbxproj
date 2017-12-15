@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DED6ABE61FE39F9F00528D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED6ABE51FE39F9F00528D6A /* AppDelegate.swift */; };
+		DED6ABE81FE39F9F00528D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED6ABE71FE39F9F00528D6A /* ViewController.swift */; };
+		DED6ABEB1FE39F9F00528D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED6ABE91FE39F9F00528D6A /* Main.storyboard */; };
+		DED6ABEE1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DED6ABEC1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodeld */; };
+		DED6ABF01FE39F9F00528D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED6ABEF1FE39F9F00528D6A /* Assets.xcassets */; };
+		DED6ABF31FE39F9F00528D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED6ABF11FE39F9F00528D6A /* LaunchScreen.storyboard */; };
+		DED6ABFE1FE39F9F00528D6A /* ZhuyinToPinyinLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED6ABFD1FE39F9F00528D6A /* ZhuyinToPinyinLearningTests.swift */; };
+		DED6AC091FE39FA000528D6A /* ZhuyinToPinyinLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED6AC081FE39FA000528D6A /* ZhuyinToPinyinLearningUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DED6ABFA1FE39F9F00528D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED6ABDA1FE39F9F00528D6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED6ABE11FE39F9F00528D6A;
+			remoteInfo = ZhuyinToPinyinLearning;
+		};
+		DED6AC051FE39FA000528D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED6ABDA1FE39F9F00528D6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED6ABE11FE39F9F00528D6A;
+			remoteInfo = ZhuyinToPinyinLearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DED6ABE21FE39F9F00528D6A /* ZhuyinToPinyinLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhuyinToPinyinLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED6ABE51FE39F9F00528D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DED6ABE71FE39F9F00528D6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DED6ABEA1FE39F9F00528D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DED6ABED1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZhuyinToPinyinLearning.xcdatamodel; sourceTree = "<group>"; };
+		DED6ABEF1FE39F9F00528D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DED6ABF21FE39F9F00528D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DED6ABF41FE39F9F00528D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED6ABF91FE39F9F00528D6A /* ZhuyinToPinyinLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhuyinToPinyinLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED6ABFD1FE39F9F00528D6A /* ZhuyinToPinyinLearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinToPinyinLearningTests.swift; sourceTree = "<group>"; };
+		DED6ABFF1FE39F9F00528D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED6AC041FE39FA000528D6A /* ZhuyinToPinyinLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhuyinToPinyinLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED6AC081FE39FA000528D6A /* ZhuyinToPinyinLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinToPinyinLearningUITests.swift; sourceTree = "<group>"; };
+		DED6AC0A1FE39FA000528D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DED6ABDF1FE39F9F00528D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED6ABF61FE39F9F00528D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED6AC011FE39FA000528D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DED6ABD91FE39F9F00528D6A = {
+			isa = PBXGroup;
+			children = (
+				DED6ABE41FE39F9F00528D6A /* ZhuyinToPinyinLearning */,
+				DED6ABFC1FE39F9F00528D6A /* ZhuyinToPinyinLearningTests */,
+				DED6AC071FE39FA000528D6A /* ZhuyinToPinyinLearningUITests */,
+				DED6ABE31FE39F9F00528D6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DED6ABE31FE39F9F00528D6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DED6ABE21FE39F9F00528D6A /* ZhuyinToPinyinLearning.app */,
+				DED6ABF91FE39F9F00528D6A /* ZhuyinToPinyinLearningTests.xctest */,
+				DED6AC041FE39FA000528D6A /* ZhuyinToPinyinLearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DED6ABE41FE39F9F00528D6A /* ZhuyinToPinyinLearning */ = {
+			isa = PBXGroup;
+			children = (
+				DED6ABE51FE39F9F00528D6A /* AppDelegate.swift */,
+				DED6ABE71FE39F9F00528D6A /* ViewController.swift */,
+				DED6ABE91FE39F9F00528D6A /* Main.storyboard */,
+				DED6ABEF1FE39F9F00528D6A /* Assets.xcassets */,
+				DED6ABF11FE39F9F00528D6A /* LaunchScreen.storyboard */,
+				DED6ABF41FE39F9F00528D6A /* Info.plist */,
+				DED6ABEC1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodeld */,
+			);
+			path = ZhuyinToPinyinLearning;
+			sourceTree = "<group>";
+		};
+		DED6ABFC1FE39F9F00528D6A /* ZhuyinToPinyinLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				DED6ABFD1FE39F9F00528D6A /* ZhuyinToPinyinLearningTests.swift */,
+				DED6ABFF1FE39F9F00528D6A /* Info.plist */,
+			);
+			path = ZhuyinToPinyinLearningTests;
+			sourceTree = "<group>";
+		};
+		DED6AC071FE39FA000528D6A /* ZhuyinToPinyinLearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DED6AC081FE39FA000528D6A /* ZhuyinToPinyinLearningUITests.swift */,
+				DED6AC0A1FE39FA000528D6A /* Info.plist */,
+			);
+			path = ZhuyinToPinyinLearningUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DED6ABE11FE39F9F00528D6A /* ZhuyinToPinyinLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED6AC0D1FE39FA000528D6A /* Build configuration list for PBXNativeTarget "ZhuyinToPinyinLearning" */;
+			buildPhases = (
+				DED6ABDE1FE39F9F00528D6A /* Sources */,
+				DED6ABDF1FE39F9F00528D6A /* Frameworks */,
+				DED6ABE01FE39F9F00528D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhuyinToPinyinLearning;
+			productName = ZhuyinToPinyinLearning;
+			productReference = DED6ABE21FE39F9F00528D6A /* ZhuyinToPinyinLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DED6ABF81FE39F9F00528D6A /* ZhuyinToPinyinLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED6AC101FE39FA000528D6A /* Build configuration list for PBXNativeTarget "ZhuyinToPinyinLearningTests" */;
+			buildPhases = (
+				DED6ABF51FE39F9F00528D6A /* Sources */,
+				DED6ABF61FE39F9F00528D6A /* Frameworks */,
+				DED6ABF71FE39F9F00528D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DED6ABFB1FE39F9F00528D6A /* PBXTargetDependency */,
+			);
+			name = ZhuyinToPinyinLearningTests;
+			productName = ZhuyinToPinyinLearningTests;
+			productReference = DED6ABF91FE39F9F00528D6A /* ZhuyinToPinyinLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DED6AC031FE39FA000528D6A /* ZhuyinToPinyinLearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED6AC131FE39FA000528D6A /* Build configuration list for PBXNativeTarget "ZhuyinToPinyinLearningUITests" */;
+			buildPhases = (
+				DED6AC001FE39FA000528D6A /* Sources */,
+				DED6AC011FE39FA000528D6A /* Frameworks */,
+				DED6AC021FE39FA000528D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DED6AC061FE39FA000528D6A /* PBXTargetDependency */,
+			);
+			name = ZhuyinToPinyinLearningUITests;
+			productName = ZhuyinToPinyinLearningUITests;
+			productReference = DED6AC041FE39FA000528D6A /* ZhuyinToPinyinLearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DED6ABDA1FE39F9F00528D6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "SHENG CHUN LIN";
+				TargetAttributes = {
+					DED6ABE11FE39F9F00528D6A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DED6ABF81FE39F9F00528D6A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DED6ABE11FE39F9F00528D6A;
+					};
+					DED6AC031FE39FA000528D6A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DED6ABE11FE39F9F00528D6A;
+					};
+				};
+			};
+			buildConfigurationList = DED6ABDD1FE39F9F00528D6A /* Build configuration list for PBXProject "ZhuyinToPinyinLearning" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DED6ABD91FE39F9F00528D6A;
+			productRefGroup = DED6ABE31FE39F9F00528D6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DED6ABE11FE39F9F00528D6A /* ZhuyinToPinyinLearning */,
+				DED6ABF81FE39F9F00528D6A /* ZhuyinToPinyinLearningTests */,
+				DED6AC031FE39FA000528D6A /* ZhuyinToPinyinLearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DED6ABE01FE39F9F00528D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED6ABF31FE39F9F00528D6A /* LaunchScreen.storyboard in Resources */,
+				DED6ABF01FE39F9F00528D6A /* Assets.xcassets in Resources */,
+				DED6ABEB1FE39F9F00528D6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED6ABF71FE39F9F00528D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED6AC021FE39FA000528D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DED6ABDE1FE39F9F00528D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED6ABE81FE39F9F00528D6A /* ViewController.swift in Sources */,
+				DED6ABEE1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodeld in Sources */,
+				DED6ABE61FE39F9F00528D6A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED6ABF51FE39F9F00528D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED6ABFE1FE39F9F00528D6A /* ZhuyinToPinyinLearningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED6AC001FE39FA000528D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED6AC091FE39FA000528D6A /* ZhuyinToPinyinLearningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DED6ABFB1FE39F9F00528D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED6ABE11FE39F9F00528D6A /* ZhuyinToPinyinLearning */;
+			targetProxy = DED6ABFA1FE39F9F00528D6A /* PBXContainerItemProxy */;
+		};
+		DED6AC061FE39FA000528D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED6ABE11FE39F9F00528D6A /* ZhuyinToPinyinLearning */;
+			targetProxy = DED6AC051FE39FA000528D6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DED6ABE91FE39F9F00528D6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED6ABEA1FE39F9F00528D6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DED6ABF11FE39F9F00528D6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED6ABF21FE39F9F00528D6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DED6AC0B1FE39FA000528D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DED6AC0C1FE39FA000528D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DED6AC0E1FE39FA000528D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CRNNPBK27;
+				INFOPLIST_FILE = ZhuyinToPinyinLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavener.ZhuyinToPinyinLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DED6AC0F1FE39FA000528D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CRNNPBK27;
+				INFOPLIST_FILE = ZhuyinToPinyinLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavener.ZhuyinToPinyinLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DED6AC111FE39FA000528D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CRNNPBK27;
+				INFOPLIST_FILE = ZhuyinToPinyinLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavener.ZhuyinToPinyinLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhuyinToPinyinLearning.app/ZhuyinToPinyinLearning";
+			};
+			name = Debug;
+		};
+		DED6AC121FE39FA000528D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CRNNPBK27;
+				INFOPLIST_FILE = ZhuyinToPinyinLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavener.ZhuyinToPinyinLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhuyinToPinyinLearning.app/ZhuyinToPinyinLearning";
+			};
+			name = Release;
+		};
+		DED6AC141FE39FA000528D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CRNNPBK27;
+				INFOPLIST_FILE = ZhuyinToPinyinLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavener.ZhuyinToPinyinLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZhuyinToPinyinLearning;
+			};
+			name = Debug;
+		};
+		DED6AC151FE39FA000528D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CRNNPBK27;
+				INFOPLIST_FILE = ZhuyinToPinyinLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heavener.ZhuyinToPinyinLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZhuyinToPinyinLearning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DED6ABDD1FE39F9F00528D6A /* Build configuration list for PBXProject "ZhuyinToPinyinLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED6AC0B1FE39FA000528D6A /* Debug */,
+				DED6AC0C1FE39FA000528D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED6AC0D1FE39FA000528D6A /* Build configuration list for PBXNativeTarget "ZhuyinToPinyinLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED6AC0E1FE39FA000528D6A /* Debug */,
+				DED6AC0F1FE39FA000528D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED6AC101FE39FA000528D6A /* Build configuration list for PBXNativeTarget "ZhuyinToPinyinLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED6AC111FE39FA000528D6A /* Debug */,
+				DED6AC121FE39FA000528D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED6AC131FE39FA000528D6A /* Build configuration list for PBXNativeTarget "ZhuyinToPinyinLearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED6AC141FE39FA000528D6A /* Debug */,
+				DED6AC151FE39FA000528D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DED6ABEC1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DED6ABED1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodel */,
+			);
+			currentVersion = DED6ABED1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodel */;
+			path = ZhuyinToPinyinLearning.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DED6ABDA1FE39F9F00528D6A /* Project object */;
+}
