@@ -6,6 +6,7 @@
 //  Copyright © 2017年 SHENG CHUN LIN. All rights reserved.
 //
 
+import Firebase
 import UIKit
 import CoreData
 
@@ -17,6 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Use Firebase library to configure APIs.
+        FirebaseApp.configure()
+        
+        // Initialize the Google Mobile Ads SDK.
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-4286420050191609~7929452995")
+        
         return true
     }
 

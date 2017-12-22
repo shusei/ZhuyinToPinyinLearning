@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CB9E0BCE042D79F916715E2 /* Pods_ZhuyinToPinyinLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E312D7F0BFE6ADBE2E9EBC81 /* Pods_ZhuyinToPinyinLearning.framework */; };
+		3880E63BDB4672DBB8E73F0B /* Pods_ZhuyinToPinyinLearningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28D32F5751948AC02879660 /* Pods_ZhuyinToPinyinLearningUITests.framework */; };
+		3BA350F2960B284446AF95D7 /* Pods_ZhuyinToPinyinLearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C8032DA6C0251D723A0DC9 /* Pods_ZhuyinToPinyinLearningTests.framework */; };
+		DE01649E1FE756B900B54784 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE01649D1FE756B900B54784 /* GoogleService-Info.plist */; };
+		DE0D1C0D1FE7A4200054B923 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D1C0C1FE7A4200054B923 /* SecondViewController.swift */; };
+		DE1D73A21FECD18B0027EACA /* ZhuyinToPinyinLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE1D73A01FECD18A0027EACA /* ZhuyinToPinyinLearning.xcdatamodeld */; };
+		DE1D73A41FECD37E0027EACA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DE1D73A31FECD37E0027EACA /* .gitignore */; };
 		DED6ABE61FE39F9F00528D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED6ABE51FE39F9F00528D6A /* AppDelegate.swift */; };
-		DED6ABE81FE39F9F00528D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED6ABE71FE39F9F00528D6A /* ViewController.swift */; };
+		DED6ABE81FE39F9F00528D6A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED6ABE71FE39F9F00528D6A /* FirstViewController.swift */; };
 		DED6ABEB1FE39F9F00528D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED6ABE91FE39F9F00528D6A /* Main.storyboard */; };
-		DED6ABEE1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DED6ABEC1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodeld */; };
 		DED6ABF01FE39F9F00528D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED6ABEF1FE39F9F00528D6A /* Assets.xcassets */; };
 		DED6ABF31FE39F9F00528D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED6ABF11FE39F9F00528D6A /* LaunchScreen.storyboard */; };
 		DED6ABFE1FE39F9F00528D6A /* ZhuyinToPinyinLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED6ABFD1FE39F9F00528D6A /* ZhuyinToPinyinLearningTests.swift */; };
@@ -35,11 +41,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41413AED7C21D5378C728B37 /* Pods-ZhuyinToPinyinLearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhuyinToPinyinLearningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhuyinToPinyinLearningTests/Pods-ZhuyinToPinyinLearningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D0BF0A6D2ED4482AF7643F2 /* Pods-ZhuyinToPinyinLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhuyinToPinyinLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhuyinToPinyinLearning/Pods-ZhuyinToPinyinLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		79C8032DA6C0251D723A0DC9 /* Pods_ZhuyinToPinyinLearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhuyinToPinyinLearningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1CF1638B802672596EB1E0 /* Pods-ZhuyinToPinyinLearningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhuyinToPinyinLearningUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhuyinToPinyinLearningUITests/Pods-ZhuyinToPinyinLearningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3F42C6B9FA6F5AC12E7396E /* Pods-ZhuyinToPinyinLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhuyinToPinyinLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhuyinToPinyinLearning/Pods-ZhuyinToPinyinLearning.release.xcconfig"; sourceTree = "<group>"; };
+		C0CC6ED7B8B76BE40C06BE02 /* Pods-ZhuyinToPinyinLearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhuyinToPinyinLearningTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhuyinToPinyinLearningTests/Pods-ZhuyinToPinyinLearningTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE01649A1FE754F200B54784 /* ZhuyinToPinyinLearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZhuyinToPinyinLearning.entitlements; sourceTree = "<group>"; };
+		DE01649D1FE756B900B54784 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE0D1C0C1FE7A4200054B923 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DE1D73A11FECD18A0027EACA /* ZhuyinToPinyinLearning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZhuyinToPinyinLearning.xcdatamodel; sourceTree = "<group>"; };
+		DE1D73A31FECD37E0027EACA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		DED6ABE21FE39F9F00528D6A /* ZhuyinToPinyinLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhuyinToPinyinLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED6ABE51FE39F9F00528D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DED6ABE71FE39F9F00528D6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DED6ABE71FE39F9F00528D6A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		DED6ABEA1FE39F9F00528D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DED6ABED1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZhuyinToPinyinLearning.xcdatamodel; sourceTree = "<group>"; };
 		DED6ABEF1FE39F9F00528D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DED6ABF21FE39F9F00528D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DED6ABF41FE39F9F00528D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +65,9 @@
 		DED6AC041FE39FA000528D6A /* ZhuyinToPinyinLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhuyinToPinyinLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED6AC081FE39FA000528D6A /* ZhuyinToPinyinLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinToPinyinLearningUITests.swift; sourceTree = "<group>"; };
 		DED6AC0A1FE39FA000528D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0527E8D4B4F6A22780724C3 /* Pods-ZhuyinToPinyinLearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhuyinToPinyinLearningUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhuyinToPinyinLearningUITests/Pods-ZhuyinToPinyinLearningUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E28D32F5751948AC02879660 /* Pods_ZhuyinToPinyinLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhuyinToPinyinLearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E312D7F0BFE6ADBE2E9EBC81 /* Pods_ZhuyinToPinyinLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhuyinToPinyinLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB9E0BCE042D79F916715E2 /* Pods_ZhuyinToPinyinLearning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA350F2960B284446AF95D7 /* Pods_ZhuyinToPinyinLearningTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +91,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3880E63BDB4672DBB8E73F0B /* Pods_ZhuyinToPinyinLearningUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CF6F1201C0AB633B24DD382 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BF0A6D2ED4482AF7643F2 /* Pods-ZhuyinToPinyinLearning.debug.xcconfig */,
+				A3F42C6B9FA6F5AC12E7396E /* Pods-ZhuyinToPinyinLearning.release.xcconfig */,
+				41413AED7C21D5378C728B37 /* Pods-ZhuyinToPinyinLearningTests.debug.xcconfig */,
+				C0CC6ED7B8B76BE40C06BE02 /* Pods-ZhuyinToPinyinLearningTests.release.xcconfig */,
+				9D1CF1638B802672596EB1E0 /* Pods-ZhuyinToPinyinLearningUITests.debug.xcconfig */,
+				E0527E8D4B4F6A22780724C3 /* Pods-ZhuyinToPinyinLearningUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A197817B1455269582E1D64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E312D7F0BFE6ADBE2E9EBC81 /* Pods_ZhuyinToPinyinLearning.framework */,
+				79C8032DA6C0251D723A0DC9 /* Pods_ZhuyinToPinyinLearningTests.framework */,
+				E28D32F5751948AC02879660 /* Pods_ZhuyinToPinyinLearningUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DED6ABD91FE39F9F00528D6A = {
 			isa = PBXGroup;
 			children = (
+				DE1D73A31FECD37E0027EACA /* .gitignore */,
 				DED6ABE41FE39F9F00528D6A /* ZhuyinToPinyinLearning */,
 				DED6ABFC1FE39F9F00528D6A /* ZhuyinToPinyinLearningTests */,
 				DED6AC071FE39FA000528D6A /* ZhuyinToPinyinLearningUITests */,
 				DED6ABE31FE39F9F00528D6A /* Products */,
+				5CF6F1201C0AB633B24DD382 /* Pods */,
+				8A197817B1455269582E1D64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +147,16 @@
 		DED6ABE41FE39F9F00528D6A /* ZhuyinToPinyinLearning */ = {
 			isa = PBXGroup;
 			children = (
+				DE01649D1FE756B900B54784 /* GoogleService-Info.plist */,
+				DE01649A1FE754F200B54784 /* ZhuyinToPinyinLearning.entitlements */,
 				DED6ABE51FE39F9F00528D6A /* AppDelegate.swift */,
-				DED6ABE71FE39F9F00528D6A /* ViewController.swift */,
+				DED6ABE71FE39F9F00528D6A /* FirstViewController.swift */,
+				DE0D1C0C1FE7A4200054B923 /* SecondViewController.swift */,
 				DED6ABE91FE39F9F00528D6A /* Main.storyboard */,
 				DED6ABEF1FE39F9F00528D6A /* Assets.xcassets */,
 				DED6ABF11FE39F9F00528D6A /* LaunchScreen.storyboard */,
+				DE1D73A01FECD18A0027EACA /* ZhuyinToPinyinLearning.xcdatamodeld */,
 				DED6ABF41FE39F9F00528D6A /* Info.plist */,
-				DED6ABEC1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodeld */,
 			);
 			path = ZhuyinToPinyinLearning;
 			sourceTree = "<group>";
@@ -135,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DED6AC0D1FE39FA000528D6A /* Build configuration list for PBXNativeTarget "ZhuyinToPinyinLearning" */;
 			buildPhases = (
+				B477B68DACDBD670A4172818 /* [CP] Check Pods Manifest.lock */,
 				DED6ABDE1FE39F9F00528D6A /* Sources */,
 				DED6ABDF1FE39F9F00528D6A /* Frameworks */,
 				DED6ABE01FE39F9F00528D6A /* Resources */,
+				A3BFD9DC0174749AC9648975 /* [CP] Embed Pods Frameworks */,
+				ABDA7391F527C549A8ED0EA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DED6AC101FE39FA000528D6A /* Build configuration list for PBXNativeTarget "ZhuyinToPinyinLearningTests" */;
 			buildPhases = (
+				8BD65AE4492515819141568C /* [CP] Check Pods Manifest.lock */,
 				DED6ABF51FE39F9F00528D6A /* Sources */,
 				DED6ABF61FE39F9F00528D6A /* Frameworks */,
 				DED6ABF71FE39F9F00528D6A /* Resources */,
+				733CD3F0EA742AA29359E857 /* [CP] Embed Pods Frameworks */,
+				6996672EF424CD3FB7AF204F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DED6AC131FE39FA000528D6A /* Build configuration list for PBXNativeTarget "ZhuyinToPinyinLearningUITests" */;
 			buildPhases = (
+				15CC3256378829DB95FE8DF3 /* [CP] Check Pods Manifest.lock */,
 				DED6AC001FE39FA000528D6A /* Sources */,
 				DED6AC011FE39FA000528D6A /* Frameworks */,
 				DED6AC021FE39FA000528D6A /* Resources */,
+				BD5CA9DEF8DD4EE23A8CD5F5 /* [CP] Embed Pods Frameworks */,
+				B5699B36D93B7CACA4F7DE6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +257,11 @@
 					DED6ABE11FE39F9F00528D6A = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					DED6ABF81FE39F9F00528D6A = {
 						CreatedOnToolsVersion = 9.2;
@@ -235,7 +300,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1D73A41FECD37E0027EACA /* .gitignore in Resources */,
 				DED6ABF31FE39F9F00528D6A /* LaunchScreen.storyboard in Resources */,
+				DE01649E1FE756B900B54784 /* GoogleService-Info.plist in Resources */,
 				DED6ABF01FE39F9F00528D6A /* Assets.xcassets in Resources */,
 				DED6ABEB1FE39F9F00528D6A /* Main.storyboard in Resources */,
 			);
@@ -257,13 +324,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15CC3256378829DB95FE8DF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZhuyinToPinyinLearningUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6996672EF424CD3FB7AF204F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhuyinToPinyinLearningTests/Pods-ZhuyinToPinyinLearningTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		733CD3F0EA742AA29359E857 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhuyinToPinyinLearningTests/Pods-ZhuyinToPinyinLearningTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BD65AE4492515819141568C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZhuyinToPinyinLearningTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3BFD9DC0174749AC9648975 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZhuyinToPinyinLearning/Pods-ZhuyinToPinyinLearning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhuyinToPinyinLearning/Pods-ZhuyinToPinyinLearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABDA7391F527C549A8ED0EA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhuyinToPinyinLearning/Pods-ZhuyinToPinyinLearning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B477B68DACDBD670A4172818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZhuyinToPinyinLearning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5699B36D93B7CACA4F7DE6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhuyinToPinyinLearningUITests/Pods-ZhuyinToPinyinLearningUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD5CA9DEF8DD4EE23A8CD5F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhuyinToPinyinLearningUITests/Pods-ZhuyinToPinyinLearningUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DED6ABDE1FE39F9F00528D6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DED6ABE81FE39F9F00528D6A /* ViewController.swift in Sources */,
-				DED6ABEE1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodeld in Sources */,
+				DE1D73A21FECD18B0027EACA /* ZhuyinToPinyinLearning.xcdatamodeld in Sources */,
+				DE0D1C0D1FE7A4200054B923 /* SecondViewController.swift in Sources */,
+				DED6ABE81FE39F9F00528D6A /* FirstViewController.swift in Sources */,
 				DED6ABE61FE39F9F00528D6A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +593,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -420,44 +641,57 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
 		DED6AC0E1FE39FA000528D6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0BF0A6D2ED4482AF7643F2 /* Pods-ZhuyinToPinyinLearning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZhuyinToPinyinLearning/ZhuyinToPinyinLearning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CRNNPBK27;
 				INFOPLIST_FILE = ZhuyinToPinyinLearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)  ";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.heavener.ZhuyinToPinyinLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		DED6AC0F1FE39FA000528D6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F42C6B9FA6F5AC12E7396E /* Pods-ZhuyinToPinyinLearning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZhuyinToPinyinLearning/ZhuyinToPinyinLearning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CRNNPBK27;
 				INFOPLIST_FILE = ZhuyinToPinyinLearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)  ";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.heavener.ZhuyinToPinyinLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
 		DED6AC111FE39FA000528D6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41413AED7C21D5378C728B37 /* Pods-ZhuyinToPinyinLearningTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +709,7 @@
 		};
 		DED6AC121FE39FA000528D6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0CC6ED7B8B76BE40C06BE02 /* Pods-ZhuyinToPinyinLearningTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +727,7 @@
 		};
 		DED6AC141FE39FA000528D6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1CF1638B802672596EB1E0 /* Pods-ZhuyinToPinyinLearningUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +744,7 @@
 		};
 		DED6AC151FE39FA000528D6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0527E8D4B4F6A22780724C3 /* Pods-ZhuyinToPinyinLearningUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,12 +801,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DED6ABEC1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodeld */ = {
+		DE1D73A01FECD18A0027EACA /* ZhuyinToPinyinLearning.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DED6ABED1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodel */,
+				DE1D73A11FECD18A0027EACA /* ZhuyinToPinyinLearning.xcdatamodel */,
 			);
-			currentVersion = DED6ABED1FE39F9F00528D6A /* ZhuyinToPinyinLearning.xcdatamodel */;
+			currentVersion = DE1D73A11FECD18A0027EACA /* ZhuyinToPinyinLearning.xcdatamodel */;
 			path = ZhuyinToPinyinLearning.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
