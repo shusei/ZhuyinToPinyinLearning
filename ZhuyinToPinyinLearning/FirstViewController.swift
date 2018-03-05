@@ -39,7 +39,7 @@ class FirstViewController: UIViewController, GADBannerViewDelegate {
         do {
             let allDatas = try viewContext.fetch(fetchReques)
             for data in allDatas {
-                print ("\(data.id), \(String(describing: data.type))")
+                print ("\(data.id), \(data.type!), \(data.zhuyin!), \(data.pinyin!), \(data.errors)")
             }
         } catch  {
             print(error)

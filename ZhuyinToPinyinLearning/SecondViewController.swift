@@ -13,6 +13,11 @@ class SecondViewController: UIViewController, GADBannerViewDelegate {
     
     var bannerView: GADBannerView!
     var type: String!
+    @IBOutlet weak var zhuyinPinyinTableImage: UIImageView!
+    @IBOutlet weak var buttonImage: UIButton!
+    @IBOutlet weak var textType: UITextField!
+    @IBOutlet weak var textZhuyin: UITextField!
+    @IBOutlet weak var textPinyin: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -103,4 +108,14 @@ class SecondViewController: UIViewController, GADBannerViewDelegate {
     func adViewWillLeaveApplication(_ bannerView: GADBannerView) {
         print("adViewWillLeaveApplication")
     }
+    
+    @IBAction func buttonHelp(_ sender: UIButton) {
+        zhuyinPinyinTableImage.isHidden = false
+        buttonImage.isHidden = false
+    }
+    @IBAction func buttonImageAction(_ sender: UIButton) {
+        zhuyinPinyinTableImage.isHidden = true
+        buttonImage.isHidden = true
+    }
+    
 }
